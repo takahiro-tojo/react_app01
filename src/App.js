@@ -1,6 +1,9 @@
 function App() {
   return (
-    <h1>Hello, world</h1>
+    <>
+      <label htmlFor="bar">bar</label>
+      <input type="text" onChange={() => {console.log("i am cheked")}} />
+    </>
   );
 }
 
